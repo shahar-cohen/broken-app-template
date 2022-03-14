@@ -33,6 +33,7 @@ export const EventForm = () => {
         id="event-time"
         type="time"
         name="event-time"
+        value={time}
         onChange={(e) => setTime(e.target.value)}
         onKeyUp={handleKeyUp}
         required
